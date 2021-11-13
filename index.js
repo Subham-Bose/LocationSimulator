@@ -1,6 +1,8 @@
-const decodePolyline = require("./DecodePolyline");
-const { getCoordinatesDDistanceMetersApart } = require("./DistanceCalculator");
-const getAllDirectionData = require("./googleDirections");
+const decodePolyline = require("./modules/DecodePolyline");
+const {
+  getCoordinatesDDistanceMetersApart,
+} = require("./modules/DistanceCalculator");
+const getAllDirectionData = require("./modules/googleDirections");
 
 let origin = [12.93175, 77.62872];
 let destination = [12.92662, 77.63696];
