@@ -15,7 +15,7 @@ module.exports = function getAllDirectionData(origin, destination) {
       params: {
         origin: origin,
         destination: destination,
-        key: "AIzaSyAsz50XC72goJbI0drY6gh_GWoCQ_9UPUw",
+        key: "Enter the api key here",
       },
       timeout: 1000,
     },
